@@ -12,29 +12,26 @@ const Footer = () => {
         </aside>
         <nav>
           <header className="footer-title text-black">Useful links</header>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Events</a>
-          <a className="link link-hover">Blogs</a>
-          <a className="link link-hover">FAQ</a>
+          
+          <a href="/about" className="text-[#228B22] font-bold">About Us</a>
+          <a href="/" className="text-[#228B22] font-bold">Home</a>
+          <a href="/menu" className="text-[#228B22] font-bold">Menu</a>
         </nav>
-        <nav>
-          <header className="footer-title">Main Menu</header>
-          <a className="link link-hover">Home</a>
-          <a className="link link-hover">Offers</a>
-          <a className="link link-hover">Menus</a>
-          <a className="link link-hover">Reservation</a>
-        </nav>
+       
         <nav>
           <header className="footer-title">Contact Us</header>
-          <a className="link link-hover">battulamanojvarma9848@email.com</a>
-          <a className="link link-hover">85478 97845</a>
-          <a className="link link-hover">Social media</a>
+          
+          <a href="mailto:battulamanojvarma9848@email.com" className="text-[#228B22] font-bold">
+            battulamanojvarma9848@email.com
+          </a>
+          <a className="text-[#228B22] font-bold">85478 97845</a>
+          <a className="text-[#228B22] font-bold">Social media</a>
         </nav>
       </footer>
-        <hr />
+      <hr />
       <footer className="footer items-center xl:px-24 px-4 py-4 mt-2">
         <aside className="items-center grid-flow-col">
-          <p>Copyright © 2023 - All right reserved</p>
+          <p className="text-[#FF6347]">Copyright © 2023 - All right reserved</p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
           <a>

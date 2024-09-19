@@ -14,6 +14,7 @@ const Home = () => {
        <SpecialDishes/>
        <Testimonials/>
        <OurServices/>
+       
     </div>
   )
 }

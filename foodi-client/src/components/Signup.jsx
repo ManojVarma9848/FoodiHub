@@ -71,14 +71,14 @@ const Signup = () => {
       .catch((error) => console.log(error));
   };
   return (
-    <div className="max-w-md bg-white shadow w-full mx-auto flex items-center justify-center my-20">
+    <div className="max-w-md bg-[#006400] shadow w-full mx-auto flex items-center justify-center my-20">
       <div className="mb-5">
         <form className="card-body" onSubmit={handleSubmit(onSubmit)}>
-          <h3 className="font-bold text-lg">Please Create An Account!</h3>
+          <h3 className="font-bold text-[#81C784]">Please Create An Account!</h3>
           {/* name */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Name</span>
+              <span className="label-text text-[#FFF8E1]">Name</span>
             </label>
             <input
               type="name"
@@ -91,7 +91,7 @@ const Signup = () => {
           {/* email */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Email</span>
+              <span className="label-text text-[#FFF8E1]">Email</span>
             </label>
             <input
               type="email"
@@ -104,7 +104,7 @@ const Signup = () => {
           {/* password */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Password</span>
+              <span className="label-text text-[#FFF8E1]">Password</span>
             </label>
             <input
               type="password"
@@ -113,7 +113,7 @@ const Signup = () => {
               {...register("password")}
             />
             <label className="label">
-              <a href="#" className="label-text-alt link link-hover mt-2">
+              <a href="#" className="label-text-alt link link-hover mt-2 text-[#FFF8E1]">
                 Forgot password?
               </a>
             </label>
@@ -126,15 +126,15 @@ const Signup = () => {
           <div className="form-control mt-6">
             <input
               type="submit"
-              className="btn bg-green text-white"
+              className="btn bg-[#FFF8E1] text-"
               value="Sign up"
             />
           </div>
 
-          <div className="text-center my-2">
+          <div className="text-center my-2 text-[#FFF8E1]">
             Have an account?
             <Link to="/login">
-              <button className="ml-2 underline">Login here</button>
+              <button className="ml-2 underline text-[#FFF8E1]">Login here</button>
             </Link>
           </div>
         </form>

@@ -83,21 +83,18 @@ const Menu = () => {
   return (
     <div>
       {/* menu banner */}
-      <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 bg-gradient-to-r from-0% from-[#FAFAFA] to-[#FCFCFC] to-100%">
+      <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 bg-gradient-to-r from-0% from-[#FFF8E1] to-[#FFF8E1] to-100%">
         <div className="py-48 flex flex-col items-center justify-center">
           {/* content */}
           <div className=" text-center px-4 space-y-7">
-            <h2 className="md:text-5xl text-4xl font-bold md:leading-snug leading-snug">
+            <h2 className="md:text-5xl text-4xl font-bold md:leading-snug leading-snug text-[#228B22]">
               For the Love of Delicious <span className="text-green">Food</span>
             </h2>
-            <p className="text-[#4A4A4A] text-xl md:w-4/5 mx-auto">
+            <p className="text-[#FF6347] text-xl md:w-4/5 mx-auto">
               Come with family & feel the joy of mouthwatering food such as
-              Greek Salad, Lasagne, Butternut Pumpkin, Tokusen Wagyu, Olivas
-              Rellenas and more for a moderate cost
+              Naan, Butter Chicken, Dal, Vegetable Curry and more for a moderate cost
             </p>
-            <button className="bg-green font-semibold btn text-white px-8 py-3 rounded-full">
-              Order Now
-            </button>
+            
           </div>
         </div>
       </div>
@@ -155,7 +152,7 @@ const Menu = () => {
               id="sort"
               onChange={(e) => handleSortChange(e.target.value)}
               value={sortOption}
-              className="bg-black text-white px-2 py-1 rounded-sm"
+              className="bg-[#FFF8E1] text-[#006400] px-2 py-1 rounded-sm"
             >
               <option value="default"> Default</option>
               <option value="A-Z">A-Z</option>

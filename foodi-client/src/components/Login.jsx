@@ -64,15 +64,15 @@ const Login = () => {
 
   return (
     
-    <div className="max-w-md bg-yellow-200 shadow w-full mx-auto flex items-center justify-center my-20">
+    <div className="max-w-md bg-[#006400] shadow w-full mx-auto flex items-center justify-center my-20">
       <div className="mb-5">
         <form className="card-body" method="dialog" onSubmit={handleSubmit(onSubmit)}>
-          <h3 className="font-bold text-lg">Please Login!</h3>
+          <h3 className="font-bold text-lg text-[#FFF8E1]">Please Login!</h3>
 
           {/* email */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Email</span>
+              <span className="label-text text-[#FFF8E1]">Email</span>
             </label>
             <input
               type="email"
@@ -86,7 +86,7 @@ const Login = () => {
           {/* password */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Password</span>
+              <span className="label-text text-[#FFF8E1]">Password</span>
             </label>
             <input
               type="password"
@@ -96,7 +96,7 @@ const Login = () => {
             />
             {errors.password && <p className="text-red-500 text-xs italic">Password is required.</p>}
             <label className="label">
-              <a href="#" className="label-text-alt link link-hover mt-2">
+              <a href="#" className="label-text-alt link link-hover mt-2 text-[#FFF8E1]">
                 Forgot password?
               </a>
             </label>
@@ -113,7 +113,7 @@ const Login = () => {
           <div className="form-control mt-4">
             <input
               type="submit"
-              className="btn bg-green-500 text-white"
+              className="btn bg-green-500 text"
               value="Login"
             />
           </div>
@@ -125,7 +125,7 @@ const Login = () => {
             </div>
           </Link>
 
-          <p className="text-center my-2">
+          <p className="text-center my-2 text-[#FFF8E1]">
             Don’t have an account?
             <Link to="/signup" className="underline text-red-500 ml-1">
               Signup Now

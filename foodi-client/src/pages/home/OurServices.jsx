@@ -21,9 +21,6 @@ const OurServices = () => {
               hospitality.
             </p>
 
-            <button className="bg-green font-semibold btn text-white px-8 py-3 rounded-full">
-              Explore
-            </button>
           </div>
         </div>
         <div className="md:w-1/2">

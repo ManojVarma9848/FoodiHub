@@ -140,7 +140,7 @@ const Modal = () => {
             </div>
 
             <p className="text-center my-2">
-              Donot have an account?
+              Do not have an account?
               <Link to="/signup" className="underline text-red ml-1">
                 Signup Now
               </Link>
